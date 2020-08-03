@@ -7,7 +7,7 @@ import { Component } from '@angular/core';
       <p class="menu-label">Menu</p>
       <ul class="menu-list">
         <a routerLink="/products" routerLinkActive="router-link-active">
-          <span>Products</span>
+          <span>Products.</span>
         </a>
         <a routerLink="/about" routerLinkActive="router-link-active">
           <span>About</span>
@@ -16,4 +16,4 @@ import { Component } from '@angular/core';
     </nav>
   `,
 })
-export class NavComponent {}
+export class NavComponent { }
